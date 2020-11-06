@@ -1,0 +1,52 @@
+h1 {
+    border-bottom: 10px solid gray;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-decoration: underline red;
+}
+
+.le {
+    border-right: 10px solid gray;
+    width: 200px;
+    margin: 0;
+}
+
+ol li {
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: rgb(55, 55, 61);
+    margin-top: 2px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.con {
+    margin-left: 20px;
+}
+
+.name {
+    margin-bottom: 50px;
+}
+
+.en {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.ko {
+    text-decoration-line:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
